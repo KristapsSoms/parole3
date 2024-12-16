@@ -1,0 +1,9 @@
+# izmantojot laika zīmogu - TimaStamp
+import time
+import random
+
+laiks=time.time() # UNIX laiks - 1970 1. janvāra plkst. 00:00
+
+parole=f"{int(time.time()*1000)}-{random.randin(1000,9999)}"
+
+print(parole)
